@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Create two S3 buckets
+
+Resources:
+  MyS3Bucket1:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: dnyanesh-unique-bucket-name-2024-1 # Replace with a globally unique name
+      Tags:
+        - Key: Name
+          Value: Dny1
